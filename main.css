@@ -7,8 +7,35 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
+  color: white;
+  background-color: black;
   padding: 10px;
+}
+
+header a {
+  color: white;
+}
+
+nav {
+  float: right
+}
+
+nav a:hover {
+  color: #ff0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 10px;
 }
 
 .brand {
@@ -27,5 +54,33 @@ header {
 
 .marketing {
   padding: 10px;
+  background-color: #555;
+  color: white;
   margin: 1em 0;
 }
+
+.features > div {
+  width: 30%;
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  vertical-align: top;
+  /*padding: 20px;*/
+}
+
+.features > div:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+footer {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+yellow hovers on links;
+underline hover on header
+
+
